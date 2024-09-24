@@ -1,8 +1,0 @@
-package models;
-
-
-
-public class Student {
-	
-	private Vector<Course> courses = new Vector<Course>();
-}
