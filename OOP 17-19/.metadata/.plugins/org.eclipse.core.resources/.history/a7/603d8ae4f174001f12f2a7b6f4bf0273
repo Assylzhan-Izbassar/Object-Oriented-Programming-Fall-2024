@@ -1,0 +1,41 @@
+package models;
+
+public class Body {
+	package static long idNum;
+	private String name = "<empty>";
+	private static long nextId = 0;
+	
+	{
+		Body.idNum = ++nextId;
+	}
+	
+	public Body() {
+//		this.idNum = ++nextId;
+	}
+	
+	public Body(String name) {
+		// 1b
+//		this(); // x
+		
+//		this(5);
+//		Body p = new Body(); // y
+		this.name = name;
+	}
+	
+	Body(int num) {
+//		this(name);
+//		this.idNum = ++nextId;
+	}
+	
+	Body(String name, int num) {
+		this(name);
+//		this(num);
+//		this.idNum = ++nextId;
+	}
+	
+	
+	
+	public long getIdNum() {
+		return this.idNum;
+	}
+}

@@ -1,0 +1,16 @@
+package example2;
+
+public class Triangle extends Shape {
+	
+	public double a;
+	public double b;
+	
+	
+	
+	
+	@Override
+	public void draw() {
+		System.out.println("Triangle with area: " 
+			+ this.a * this.b);
+	}
+}

@@ -1,0 +1,19 @@
+package testers;
+
+import models.Body;
+//import java.util.Scanner;
+
+public class TesterBody {
+
+	public static void main(String[] args) {
+		java.util.Scanner input = new java.util.Scanner();
+		Body b = new Body();
+		Body earth = new Body("Earth"); // 1b
+		Body b2 = new Body();
+		
+		System.out.println(b.getIdNum());
+		System.out.println(earth.getIdNum());
+		System.out.println(b2.getIdNum());
+	}
+
+}

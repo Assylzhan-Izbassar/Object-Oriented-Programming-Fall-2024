@@ -1,0 +1,11 @@
+package example2;
+
+public class Shape {
+	protected double area;
+	protected double perimeter;
+	
+	
+	public void draw() {
+		System.out.println("Abstract shape...");
+	}
+}

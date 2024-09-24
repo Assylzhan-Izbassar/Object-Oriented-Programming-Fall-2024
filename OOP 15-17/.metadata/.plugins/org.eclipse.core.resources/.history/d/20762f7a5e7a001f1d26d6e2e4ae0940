@@ -1,0 +1,14 @@
+package example1;
+
+public class Student extends Person {
+	
+	private int studentId;
+	
+	public Student() {
+		super();
+	}
+	
+	public Student(String name) {
+		super(name);
+	}
+}

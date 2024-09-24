@@ -1,0 +1,26 @@
+package testers;
+
+import models.Body;
+import static models.Body.*;
+import java.util.Scanner;
+import static java.lang.Math.*;
+
+public class TesterBody {
+
+	public static void main(String[] args) {
+		Scanner input = new java.util.Scanner(System.in);
+		Body b = new Body();
+		Body earth = new Body("Earth"); // 1b
+		Body b2 = new Body();
+		
+		earth.circledWithPivot();
+		
+		System.out.println(b.getIdNum());
+		System.out.println(earth.getIdNum());
+		System.out.println(b2.getIdNum());
+		
+		System.out.println(sqrt(1.2));
+		System.out.println(nextId);
+	}
+
+}

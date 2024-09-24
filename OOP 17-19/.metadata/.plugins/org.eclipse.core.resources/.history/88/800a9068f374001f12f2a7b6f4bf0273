@@ -1,0 +1,43 @@
+package models;
+
+public class Body {
+	private static long idNum;
+	private String name = "<empty>";
+	public static long nextId = 0;
+	
+	{
+		Body.idNum = ++nextId;
+	}
+	
+	public Body() {
+//		this.idNum = ++nextId;
+	}
+	
+	public Body(String name) {
+		// 1b
+//		this(); // x
+		
+//		this(5);
+//		Body p = new Body(); // y
+		this.name = name;
+	}
+	
+	Body(int num) {
+//		this(name);
+//		this.idNum = ++nextId;
+	}
+	
+	Body(String name, int num) {
+		this(name);
+//		this(num);
+//		this.idNum = ++nextId;
+	}
+	
+	public static void circledWithPivot() {
+		System.out.println("Body is circled");
+	}
+	
+	public long getIdNum() {
+		return this.idNum;
+	}
+}
