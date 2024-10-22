@@ -10,9 +10,11 @@ public class TestCountries {
 		k.toString();
 		
 		Country c = new Country(0.32, "Italy");
+		Country l = new Kazakhstan(2.73, "Kazakh Land");
 		
 		System.out.println(k.currencyCount());
 		System.out.println(c.currencyCount());
+		System.out.println(l.currencyCount());
 	}
 	
 	
