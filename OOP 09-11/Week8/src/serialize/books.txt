@@ -1,0 +1,3 @@
+¬í sr serialize.Book        I 
+numOfPagesL authort Ljava/lang/String;xp   #t 
+Fairy Tale
