@@ -15,9 +15,7 @@ public class TestShape {
 		for(Shape x: v) {
 			x.draw();
 		}
-		
-		Color.
-		
+				
 		System.out.println(Color.RED.asciiCode + "Hello, world");
 	}
 

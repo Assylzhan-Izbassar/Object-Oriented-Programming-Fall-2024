@@ -1,0 +1,7 @@
+java.io.FileNotFoundException: C:\Users\a.izbassar\Desktop\Object-Oriented-Programming-Fall-2024\OOP 15-17\Week8\src\serialize (Отказано в доступе)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at Week8/serialize.BookSerializer.deserialize(BookSerializer.java:37)
+	at Week8/serialize.BookSerializer.main(BookSerializer.java:67)
