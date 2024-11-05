@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="Student"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="ex3.PersonNameComparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="ex2.Person"/>
+    <fullyQualifiedTypeName name="ex3.PersonHeightComparator"/>
 </qualifiedTypeNameHistroy>
