@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="ex2.Person"/>
     <fullyQualifiedTypeName name="ex3.PersonHeightComparator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
