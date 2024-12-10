@@ -9,4 +9,16 @@
     <fullyQualifiedTypeName name="ex2.Person"/>
     <fullyQualifiedTypeName name="ex3.PersonHeightComparator"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="views.BaseView"/>
+    <fullyQualifiedTypeName name="controllers.UserController"/>
+    <fullyQualifiedTypeName name="models.UserType"/>
+    <fullyQualifiedTypeName name="models.Student"/>
+    <fullyQualifiedTypeName name="models.Manager"/>
+    <fullyQualifiedTypeName name="models.Teacher"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.FailedLoginException"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="dll.DBContext"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 </qualifiedTypeNameHistroy>

@@ -25,10 +25,10 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="704"/>
-		<item key="DIALOG_Y_ORIGIN" value="250"/>
+		<item key="DIALOG_X_ORIGIN" value="934"/>
+		<item key="DIALOG_Y_ORIGIN" value="301"/>
 		<item key="DIALOG_WIDTH" value="574"/>
-		<item key="DIALOG_HEIGHT" value="620"/>
+		<item key="DIALOG_HEIGHT" value="619"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
@@ -104,5 +104,8 @@
 		<item key="DIALOG_WIDTH" value="579"/>
 		<item key="DIALOG_HEIGHT" value="543"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
 	</section>
 </section>

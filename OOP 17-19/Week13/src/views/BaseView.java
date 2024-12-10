@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 import controllers.UserController;
 import models.UserType;
+import models.User;
+import models.Teacher;
 
 public class BaseView {
 	
@@ -11,6 +13,49 @@ public class BaseView {
 //	private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	
 	public static void welcome() {
+		System.out.println("Welcome to WSP!\nSelect your role:");
+		System.out.println("1. Teacher");
+		System.out.println("2. Manager");
+		System.out.println("3. Student");
+		
+		int option = in.nextInt();
+		
+		if (option == 1) {
+			authorize("teacher.txt");
+		} else if (option == 2) {
+			authorize("manager.txt");
+		} else if (option == 3) {
+			authorize("student.txt");
+		}
+	}
+	
+	public static void authorize(String fileName) {
+		System.out.println("Please, enter your credentials:");
+		
+		in.nextLine();
+		
+		System.out.println("Username:");
+		String username = in.nextLine();
+		
+		System.out.println("Password:");
+		String password = in.nextLine();
+		
+		boolean res = UserController.authorize(fileName, username, password);
+		User user = new Teacher("", "");
+		
+		if (user instanceof Teacher) {
+			TeacherView.menu();
+		}
+		
+		if (res) {
+			menu();
+		} else {
+			System.err.println("Your credentials is wrong! Please, try again!");
+			welcome();
+		}
+	}
+	
+	public static void menu() {
 		System.out.println("Welcome to WSP!\nPlease select the option:");
 		System.out.println("1. Create a new user;");
 		System.out.println("2. Show teachers;");
@@ -34,7 +79,7 @@ public class BaseView {
 		
 		System.out.println(o);
 		
-		welcome();
+		menu();
 	}
 	
 	public static void createUser() {
@@ -64,7 +109,7 @@ public class BaseView {
 			} else {
 				System.err.println("error!");
 			}
-			welcome();
+			menu();
 		}
 	
 	}

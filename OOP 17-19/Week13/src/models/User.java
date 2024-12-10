@@ -12,6 +12,14 @@ public abstract class User implements Serializable {
 		this.password = password;
 	}
 	
+	public String getUsername() {
+		return this.username;
+	}
+	
+	public String getPassword() {
+		return this.password;
+	}
+	
 	public String toString() {
 		return this.username;
 	}

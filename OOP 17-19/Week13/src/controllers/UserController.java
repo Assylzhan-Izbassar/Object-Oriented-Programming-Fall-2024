@@ -42,4 +42,18 @@ public class UserController {
 			return null;
 		}
 	}
+	
+	public static boolean authorize(String fileName, String username, String password) {
+		if(fileName.equals("teacher.txt")) {
+			Vector<Teacher> teachers = (Vector<Teacher>) getUsers(UserType.TEACHER);
+			
+			for(Teacher t: teachers) {
+				if (t.getUsername().equals(username)
+						&& t.getPassword().equals(password))
+					return true;
+			}
+		}
+		
+		return false;
+	}
 }

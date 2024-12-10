@@ -12,7 +12,6 @@ public class DBContext {
 	public static Vector<Teacher> teacher;
 	
 	{
-		
 		this.teacher = getTeachers();
 	}
 	
